@@ -1,0 +1,6 @@
+ASUS ROG Strix X570-E Gaming 
+Motherboard ATX 
+Socket AM4 
+AMD X570 Chipset 
+USB-C Gen2, USB 3.2 Gen 1, USB 3.2 Gen 2 Bluetooth, Gigabit LAN, 
+2.5 Gigabit LAN, Wi-Fi - onboard graphics (CPU required) - HD Audio (8-channel)

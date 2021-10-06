@@ -1,0 +1,6 @@
+MSI B460M-A PRO 
+Socket 10th gen Intel 1200 
+mATX MB 
+4x DDR4 up to 2933 MHz 
+6x SATA 6Gb/s 2x M.2 6x USB 3.2
+35 evro

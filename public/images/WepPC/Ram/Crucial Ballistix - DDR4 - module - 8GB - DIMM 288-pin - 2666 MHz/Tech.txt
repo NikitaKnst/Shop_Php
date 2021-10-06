@@ -1,0 +1,20 @@
+Product Description
+Ballistix - DDR4 - module - 8 GB - DIMM 288-pin - 2666 MHz / PC4-21300 - unbuffered
+Product Type
+Memory module
+Capacity
+8 GB
+Memory Type
+DDR4 SDRAM - DIMM 288-pin
+Upgrade Type
+Generic
+Data Integrity Check
+Non-ECC
+Speed
+2666 MHz (PC4-21300)
+Latency Timings
+CL16
+Features
+Black PCB, anodized aluminum heatspreader, low profile heatspreader, Intel Extreme Memory Profiles (XMP 2.0), unbuffered
+Voltage
+1.35 V

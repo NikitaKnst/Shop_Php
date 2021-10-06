@@ -1,0 +1,8 @@
+Intel H310 Express Название
+LGA1151 Слот
+MicroATX Тип материнской платы
+2xPCI-Express 2.0 1x слот 
+1xPCI-Express 3.0 16x слот
+DDR4 2666/2400/2133 MHz слот Memory slots 2 слот
+1x15pin D-sub слот
+1xDVI 1xHDMI 2xUSB 2.0 2xUSB 3.1 1xPS/2 1xRJ45 3xAudio port USB 2.0 USB 3.1 слот
