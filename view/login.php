@@ -2,6 +2,8 @@
 ob_start();
 $title='Login or Register';
 ?>
+<div class="LOGIN_REGISTER">
+
 <div class="container" >
     <div class="row">
         <div class="col-md-5" style="min-height:400px;">
@@ -67,7 +69,7 @@ $title='Login or Register';
         </div>
     </div>
 </div>
-
+</div>
 
 <?php
 $content= ob_get_clean();

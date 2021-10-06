@@ -159,39 +159,39 @@
 
 
 <div class="section padding_layout_1 blog_list">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 pull-right">
-        <div class="full">
-          <div class="blog_section">
-            <div class="blog_feature_img"> <img class="img-responsive" src="images/it_service/post-06.jpg" alt="#"> </div>
-            <div class="blog_feature_cantant">
-              <p class="blog_head">Blogpost With Image</p>
-              <div class="post_info">
-                <ul>
-                  <li><i class="fa fa-user" aria-hidden="true"></i> Marketing</li>
-                  <li><i class="fa fa-comment" aria-hidden="true"></i> 5</li>
-                  <li><i class="fa fa-calendar" aria-hidden="true"></i> 12 Aug 2017</li>
-                </ul>
-              </div>
-              <p>Consectetur, assumenda provident lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae laboriosam sunt hic perspiciatis, 
-                asperiores mollitia excepturi voluptatibus sequi nostrum ipsam veniam omnis nihil! A ea maiores corporis. Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
-                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-              <div class="bottom_info">
-                <div class="pull-left"><a class="btn sqaure_bt" href="it_blog_detail.html">Read More<i class="fa fa-angle-right"></i></a></div>
-                <div class="pull-right">
-                  <div class="shr">Share: </div>
-                  <div class="social_icon">
-                    <ul>
-                      <li class="fb"><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-                      <li class="twi"><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-                      <li class="gp"><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-                      <li class="pint"><a href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
+
+
+  
+   <?php
+          foreach ($row as $product) {
+            
+            echo '<div class="col-md-4 col-sm-6 col-xs-12 margin_bottom_30_all">';
+            echo '<div class="product_list">';
+              echo '<div class="product_img">'; 
+                echo '<img class="img-responsive" style="height: 275px; width:15px;" src="public/images/WepPC/'.$product['images'].'" alt="">'; 
+                    echo '</div>';
+              echo '<div class="product_detail_btm">';
+                echo '<div class="center">';
+                  echo '<h4><a href="productDetail">'.$product['Name_Product'].'</a></h4>';
+                echo '</div>';
+                echo '<div class="starratin">';
+                  echo '<div class="center">'; 
+                  echo '<i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i>'; 
+                  echo '</div>';
+                echo '</div>';
+                echo '<div class="product_price">';
+                  echo '<p>$ '.$product['Price'].'</p>';
+                echo '</div>';
+              echo '</div>';
+            echo '</div>';
+           echo '</div>';
+
+          }
+
+          ?>
+
+
+
           </div>
           <div class="blog_section">
             <div class="blog_feature_img"> <img class="img-responsive" src="images/it_service/post-08.jpg" alt="#"> </div>
